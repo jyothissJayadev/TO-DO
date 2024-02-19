@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do list</title>
+</head>
+<body>
+
+  <div class="drop__down__form drop__down__close">
+    <button id="close__form">
+        <ion-icon name="close"></ion-icon>
+    </button>
+    <div class="input_element">
+        <label for="title">Enter Todo Title</label>
+        <input type="text" id="title" placeholder="Join Zoom Meeting" value="">
+    </div>
+
+    <div class="input_element">
+        <label for="desc">Enter Todo Description</label>
+        <input type="text" id="desc" placeholder="Join FSJS Zoom Class Every Sataday-Sunday" value="">
+    </div>
+    <input type="button" id="submit__btn" value="submit" onclick="saveToDo()">
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="head">
+        <p class="title">All Todos</p>
+        <button id="add">Add</button>
+    </div>
+
+    <div class="todo__container">
+        <!-- content comes from js -->
+    </div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
